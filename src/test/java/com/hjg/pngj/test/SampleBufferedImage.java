@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.awt.image.BufferedImage;
 import java.awt.image.IndexColorModel;
@@ -8,10 +8,10 @@ import java.util.Arrays;
 
 import javax.imageio.ImageIO;
 
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.ImageLineHelper;
-import ar.com.hjg.pngj.PngWriter;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.ImageLineHelper;
+import com.hjg.pngj.PngWriter;
 
 /**
  * NOT WORKING YET - DONT USE THIS

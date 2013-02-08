@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.test.misc;
+package com.hjg.pngj.test.misc;
 
 import java.util.zip.CRC32;
 

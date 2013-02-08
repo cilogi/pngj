@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
 import java.io.BufferedInputStream;
 import java.io.File;

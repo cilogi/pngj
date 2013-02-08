@@ -1,9 +1,9 @@
-package ar.com.hjg.pngj.chunks;
+package com.hjg.pngj.chunks;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ar.com.hjg.pngj.PngjException;
+import com.hjg.pngj.PngjException;
 
 /**
  * We consider "image metadata" every info inside the image except for the most

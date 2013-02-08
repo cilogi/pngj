@@ -1,9 +1,9 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 
-import ar.com.hjg.pngj.FileHelper;
-import ar.com.hjg.pngj.PngReader;
+import com.hjg.pngj.FileHelper;
+import com.hjg.pngj.PngReader;
 
 /**
  * prints chunks list (remember that IDAT is shown as only one pseudo

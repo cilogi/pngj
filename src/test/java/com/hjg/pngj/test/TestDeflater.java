@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,7 +7,7 @@ import java.io.OutputStream;
 import java.util.zip.Deflater;
 import java.util.zip.DeflaterOutputStream;
 
-import ar.com.hjg.pngj.test.TestsHelper.NullOutputStream;
+import com.hjg.pngj.test.TestsHelper.NullOutputStream;
 
 public class TestDeflater {
 	public static void main(String[] args) throws Exception {

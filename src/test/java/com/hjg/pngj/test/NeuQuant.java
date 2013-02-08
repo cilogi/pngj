@@ -1,7 +1,7 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.PngReader;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.PngReader;
 
 /* NeuQuant Neural-Net Quantization Algorithm
  * ------------------------------------------

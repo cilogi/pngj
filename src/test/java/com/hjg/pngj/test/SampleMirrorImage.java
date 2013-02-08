@@ -1,13 +1,13 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 
-import ar.com.hjg.pngj.FileHelper;
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.PngReader;
-import ar.com.hjg.pngj.PngWriter;
-import ar.com.hjg.pngj.chunks.ChunkCopyBehaviour;
+import com.hjg.pngj.FileHelper;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.PngReader;
+import com.hjg.pngj.PngWriter;
+import com.hjg.pngj.chunks.ChunkCopyBehaviour;
 
 /**
  * Mirrors an image, along the rows. This works for ALL image types, see also

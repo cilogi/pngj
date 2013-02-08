@@ -1,18 +1,18 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Random;
 
-import ar.com.hjg.pngj.FileHelper;
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.ImageLine.SampleType;
-import ar.com.hjg.pngj.PngHelperInternal;
-import ar.com.hjg.pngj.PngReader;
-import ar.com.hjg.pngj.PngWriter;
-import ar.com.hjg.pngj.PngjException;
+import com.hjg.pngj.FileHelper;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.ImageLine.SampleType;
+import com.hjg.pngj.PngHelperInternal;
+import com.hjg.pngj.PngReader;
+import com.hjg.pngj.PngWriter;
+import com.hjg.pngj.PngjException;
 
 public class TestsHelper {
 

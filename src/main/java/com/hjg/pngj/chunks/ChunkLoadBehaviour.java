@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.chunks;
+package com.hjg.pngj.chunks;
 
 /**
  * Defines gral strategy about what to do with ancillary (non-critical) chunks

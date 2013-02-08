@@ -1,6 +1,6 @@
-package ar.com.hjg.pngj.chunks;
+package com.hjg.pngj.chunks;
 
-import ar.com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageInfo;
 
 /**
  * PNG chunk type (abstract) that does not allow multiple instances in same

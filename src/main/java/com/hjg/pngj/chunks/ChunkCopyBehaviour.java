@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.chunks;
+package com.hjg.pngj.chunks;
 
 /**
  * Chunk copy policy to apply when copyng from a pngReader to a pngWriter.

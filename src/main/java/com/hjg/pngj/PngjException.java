@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
 /**
  * Generic exception

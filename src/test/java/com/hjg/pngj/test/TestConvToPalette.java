@@ -1,8 +1,8 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 
-import ar.com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageInfo;
 
 public class TestConvToPalette {
 

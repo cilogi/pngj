@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
 /**
  * Manages the writer strategy for selecting the internal png predictor filter

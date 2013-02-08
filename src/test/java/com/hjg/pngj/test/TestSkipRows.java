@@ -1,13 +1,13 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 import java.util.Random;
 
-import ar.com.hjg.pngj.FilterType;
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.PngReader;
-import ar.com.hjg.pngj.PngWriter;
+import com.hjg.pngj.FilterType;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.PngReader;
+import com.hjg.pngj.PngWriter;
 
 public class TestSkipRows {
 

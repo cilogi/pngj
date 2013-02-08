@@ -1,8 +1,7 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
-import ar.com.hjg.pngj.ImageLine.SampleType;
-import ar.com.hjg.pngj.chunks.PngChunkPLTE;
-import ar.com.hjg.pngj.chunks.PngChunkTRNS;
+import com.hjg.pngj.chunks.PngChunkPLTE;
+import com.hjg.pngj.chunks.PngChunkTRNS;
 
 /**
  * Bunch of utility static methods to process/analyze an image line at the pixel
@@ -41,7 +40,7 @@ public class ImageLineHelper {
 			buf = new int[nsamples];
 		if (!line.samplesUnpacked)
 			line = line.unpackToNewImageLine();
-		boolean isbyte = line.sampleType == SampleType.BYTE;
+		boolean isbyte = line.sampleType == ImageLine.SampleType.BYTE;
 		int nindexesWithAlpha = trns != null ? trns.getPalletteAlpha().length : 0;
 		for (int c = 0; c < line.imgInfo.cols; c++) {
 			int index = isbyte ? (line.scanlineb[c] & 0xFF) : line.scanline[c];
@@ -156,7 +155,7 @@ public class ImageLineHelper {
 				+ (line.scanline[offset + 2]);
 	}
 
-	public static void setPixelsRGB8(ImageLine line, int[] rgb) {
+	public static void setPixelsRGB8(com.hjg.pngj.ImageLine line, int[] rgb) {
 		for (int i = 0, j = 0; i < line.imgInfo.cols; i++) {
 			line.scanline[j++] = ((rgb[i] >> 16) & 0xFF);
 			line.scanline[j++] = ((rgb[i] >> 8) & 0xFF);

@@ -1,12 +1,12 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.util.HashMap;
 
-import ar.com.hjg.pngj.PngReader;
-import ar.com.hjg.pngj.PngWriter;
-import ar.com.hjg.pngj.chunks.ChunkHelper;
-import ar.com.hjg.pngj.chunks.PngChunk;
-import ar.com.hjg.pngj.chunks.PngChunkTextVar;
+import com.hjg.pngj.PngReader;
+import com.hjg.pngj.PngWriter;
+import com.hjg.pngj.chunks.ChunkHelper;
+import com.hjg.pngj.chunks.PngChunk;
+import com.hjg.pngj.chunks.PngChunkTextVar;
 
 public class TestTextChunks {
 

@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.test.misc;
+package com.hjg.pngj.test.misc;
 
 import java.io.BufferedReader;
 import java.io.File;

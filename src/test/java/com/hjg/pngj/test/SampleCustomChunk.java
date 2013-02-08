@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -6,16 +6,16 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Properties;
 
-import ar.com.hjg.pngj.FileHelper;
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.PngReader;
-import ar.com.hjg.pngj.PngWriter;
-import ar.com.hjg.pngj.PngjException;
-import ar.com.hjg.pngj.chunks.ChunkCopyBehaviour;
-import ar.com.hjg.pngj.chunks.ChunkRaw;
-import ar.com.hjg.pngj.chunks.PngChunk;
-import ar.com.hjg.pngj.chunks.PngChunkSingle;
+import com.hjg.pngj.FileHelper;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.PngReader;
+import com.hjg.pngj.PngWriter;
+import com.hjg.pngj.PngjException;
+import com.hjg.pngj.chunks.ChunkCopyBehaviour;
+import com.hjg.pngj.chunks.ChunkRaw;
+import com.hjg.pngj.chunks.PngChunk;
+import com.hjg.pngj.chunks.PngChunkSingle;
 
 /**
  * This example shows how to register a custom chunk.

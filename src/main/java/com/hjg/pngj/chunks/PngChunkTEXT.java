@@ -1,8 +1,8 @@
-package ar.com.hjg.pngj.chunks;
+package com.hjg.pngj.chunks;
 
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.PngHelperInternal;
-import ar.com.hjg.pngj.PngjException;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.PngHelperInternal;
+import com.hjg.pngj.PngjException;
 
 /**
  * tEXt chunk.

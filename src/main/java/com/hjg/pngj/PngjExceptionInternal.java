@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
 /**
  * Exception for anomalous internal problems (sort of asserts) that point to

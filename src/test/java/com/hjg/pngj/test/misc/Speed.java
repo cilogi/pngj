@@ -1,18 +1,18 @@
-package ar.com.hjg.pngj.test.misc;
+package com.hjg.pngj.test.misc;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.util.zip.Deflater;
 
-import ar.com.hjg.pngj.FileHelper;
-import ar.com.hjg.pngj.FilterType;
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.ImageLineHelper;
-import ar.com.hjg.pngj.PngReader;
-import ar.com.hjg.pngj.PngWriter;
-import ar.com.hjg.pngj.test.TestsHelper;
+import com.hjg.pngj.FileHelper;
+import com.hjg.pngj.FilterType;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.ImageLineHelper;
+import com.hjg.pngj.PngReader;
+import com.hjg.pngj.PngWriter;
+import com.hjg.pngj.test.TestsHelper;
 
 /**
  * Creates a huge image

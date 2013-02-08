@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,16 +8,16 @@ import java.util.zip.CRC32;
 import java.util.zip.Inflater;
 import java.util.zip.InflaterInputStream;
 
-import ar.com.hjg.pngj.ImageLine.SampleType;
-import ar.com.hjg.pngj.chunks.ChunkHelper;
-import ar.com.hjg.pngj.chunks.ChunkLoadBehaviour;
-import ar.com.hjg.pngj.chunks.ChunkRaw;
-import ar.com.hjg.pngj.chunks.ChunksList;
-import ar.com.hjg.pngj.chunks.PngChunk;
-import ar.com.hjg.pngj.chunks.PngChunkIDAT;
-import ar.com.hjg.pngj.chunks.PngChunkIHDR;
-import ar.com.hjg.pngj.chunks.PngChunkSkipped;
-import ar.com.hjg.pngj.chunks.PngMetadata;
+import com.hjg.pngj.ImageLine.SampleType;
+import com.hjg.pngj.chunks.ChunkHelper;
+import com.hjg.pngj.chunks.ChunkLoadBehaviour;
+import com.hjg.pngj.chunks.ChunkRaw;
+import com.hjg.pngj.chunks.ChunksList;
+import com.hjg.pngj.chunks.PngChunk;
+import com.hjg.pngj.chunks.PngChunkIDAT;
+import com.hjg.pngj.chunks.PngChunkIHDR;
+import com.hjg.pngj.chunks.PngChunkSkipped;
+import com.hjg.pngj.chunks.PngMetadata;
 
 /**
  * Reads a PNG image, line by line.

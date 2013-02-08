@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
 /**
  * Exception thrown because of some valid feature of PNG standard that this

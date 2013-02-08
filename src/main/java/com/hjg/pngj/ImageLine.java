@@ -1,6 +1,5 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
-import ar.com.hjg.pngj.ImageLineHelper.ImageLineStats;
 
 /**
  * Lightweight wrapper for an image scanline, used for read and write.
@@ -324,7 +323,7 @@ public class ImageLine {
 	 */
 	public static void showLineInfo(ImageLine line) {
 		System.out.println(line);
-		ImageLineStats stats = new ImageLineHelper.ImageLineStats(line);
+        ImageLineHelper.ImageLineStats stats = new ImageLineHelper.ImageLineStats(line);
 		System.out.println(stats);
 		System.out.println(ImageLineHelper.infoFirstLastPixels(line));
 	}

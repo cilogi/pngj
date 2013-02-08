@@ -1,11 +1,11 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 
-import ar.com.hjg.pngj.FileHelper;
-import ar.com.hjg.pngj.FilterType;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.PngReader;
+import com.hjg.pngj.FileHelper;
+import com.hjg.pngj.FilterType;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.PngReader;
 
 /**
  * 

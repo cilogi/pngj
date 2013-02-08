@@ -1,9 +1,9 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
 import java.io.OutputStream;
 
-import ar.com.hjg.pngj.chunks.ChunkHelper;
-import ar.com.hjg.pngj.chunks.ChunkRaw;
+import com.hjg.pngj.chunks.ChunkHelper;
+import com.hjg.pngj.chunks.ChunkRaw;
 
 /**
  * outputs the stream for IDAT chunk , fragmented at fixed size (32k default).

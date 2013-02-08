@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 public class ImageLineInterlace {
 

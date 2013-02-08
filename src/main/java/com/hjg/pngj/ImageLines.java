@@ -1,6 +1,6 @@
-package ar.com.hjg.pngj;
+package com.hjg.pngj;
 
-import ar.com.hjg.pngj.ImageLine.SampleType;
+import com.hjg.pngj.ImageLine.SampleType;
 
 /**
  * Wraps in a matrix a set of image rows, not necessarily contiguous - but

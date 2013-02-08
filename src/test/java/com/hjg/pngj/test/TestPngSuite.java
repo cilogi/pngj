@@ -1,24 +1,24 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.nio.channels.FileChannel;
 
-import ar.com.hjg.pngj.FileHelper;
-import ar.com.hjg.pngj.FilterType;
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.ImageLine.SampleType;
-import ar.com.hjg.pngj.ImageLineHelper;
-import ar.com.hjg.pngj.ImageLines;
-import ar.com.hjg.pngj.PngHelperInternal;
-import ar.com.hjg.pngj.PngReader;
-import ar.com.hjg.pngj.PngWriter;
-import ar.com.hjg.pngj.PngjException;
-import ar.com.hjg.pngj.chunks.ChunkCopyBehaviour;
-import ar.com.hjg.pngj.chunks.PngChunkPLTE;
-import ar.com.hjg.pngj.chunks.PngChunkTRNS;
+import com.hjg.pngj.FileHelper;
+import com.hjg.pngj.FilterType;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.ImageLine.SampleType;
+import com.hjg.pngj.ImageLineHelper;
+import com.hjg.pngj.ImageLines;
+import com.hjg.pngj.PngHelperInternal;
+import com.hjg.pngj.PngReader;
+import com.hjg.pngj.PngWriter;
+import com.hjg.pngj.PngjException;
+import com.hjg.pngj.chunks.ChunkCopyBehaviour;
+import com.hjg.pngj.chunks.PngChunkPLTE;
+import com.hjg.pngj.chunks.PngChunkTRNS;
 
 /**
  * To test all images in PNG test suite doing a horizontal mirror on all them

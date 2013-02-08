@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.chunks;
+package com.hjg.pngj.chunks;
 
 /**
  * Decides if another chunk "matches", according to some criterion

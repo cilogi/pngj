@@ -1,4 +1,4 @@
-package ar.com.hjg.pngj.chunks;
+package com.hjg.pngj.chunks;
 
 import java.io.OutputStream;
 import java.util.ArrayList;
@@ -6,9 +6,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.PngjException;
-import ar.com.hjg.pngj.PngjOutputException;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.PngjException;
+import com.hjg.pngj.PngjOutputException;
 
 public class ChunksListForWrite extends ChunksList {
 

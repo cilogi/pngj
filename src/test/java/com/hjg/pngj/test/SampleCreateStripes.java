@@ -1,13 +1,13 @@
-package ar.com.hjg.pngj.test;
+package com.hjg.pngj.test;
 
 import java.io.File;
 
-import ar.com.hjg.pngj.FileHelper;
-import ar.com.hjg.pngj.ImageInfo;
-import ar.com.hjg.pngj.ImageLine;
-import ar.com.hjg.pngj.ImageLineHelper;
-import ar.com.hjg.pngj.PngWriter;
-import ar.com.hjg.pngj.chunks.PngChunkTextVar;
+import com.hjg.pngj.FileHelper;
+import com.hjg.pngj.ImageInfo;
+import com.hjg.pngj.ImageLine;
+import com.hjg.pngj.ImageLineHelper;
+import com.hjg.pngj.PngWriter;
+import com.hjg.pngj.chunks.PngChunkTextVar;
 
 /**
  * grayscale image - distorted diagonal stripes
